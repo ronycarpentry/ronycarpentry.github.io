@@ -1,6 +1,6 @@
 <?php 
 if(isset($_POST['submit'])){
-    $to = "info@ronycarpentry.com"; // this is your Email address
+    $to = "ronaldokuka@gmail.com"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
   
     $name = $_POST['name'];
@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
     $headers2 = "From:" . $to;
     mail($to,$subject,$message,$headers);
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    echo "E-mail has been sent. Thank you " . $name . ", we will contact you shortly.";
      
     }
 ?>
@@ -44,7 +44,7 @@ if(isset($_POST['submit'])){
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
  <meta name="Description" CONTENT="Latest trends for satisfied clients.">
 	<meta name="robots" content="index, follow" />
-    <meta name="keywords" content="gdpr,dpo,dpia,albania,sweden,germany,italy,austria,france,spain,macedonia,montenegro,slovenia,croacia,hungary" />
+    <meta name="keywords" content="carpentry,london,queen,cheap,carpenter,ikea,xxxlutz,gdpr,dpo,dpia,albania,sweden,germany,italy,austria,france,spain,macedonia,montenegro,slovenia,croacia,hungary" />
     <meta name="resource-type" content="document" />
     <meta name="language" content="en-US" />
 <meta name="author" content="Phd Candidate. Msc.ALBI DODE">
@@ -197,7 +197,7 @@ if(isset($_POST['submit'])){
 					<header class="major narrow">
 						<h2>Get in touch</h2>
 						<p>You can call us at (TEL/WhatsApp):<a href="tel:00447919938022">+447919938022</a> </p>
-						<p>Write us an email and we will contact you</p>
+						<p>Write us an email <a href="mailto:ronaldokuka@gmail.com">info@ronycarpentry.com</a> and we will contact you</p>
 					</header>
 					<form action="" method="POST">
 						<div class="container 75%">
@@ -224,6 +224,7 @@ if(isset($_POST['submit'])){
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">
+					<!-- 
 					<ul class="icons">
 						<li><a href="#" class="icon fa-facebook">
 							<span class="label">Facebook</span>
@@ -237,7 +238,7 @@ if(isset($_POST['submit'])){
 						<li><a href="#" class="icon fa-linkedin">
 							<span class="label">LinkedIn</span>
 						</a></li>
-					</ul>
+					</ul> -->
 					<ul class="copyright">
 						<li>&copy; Rony Carpentry.</li>
 						 
