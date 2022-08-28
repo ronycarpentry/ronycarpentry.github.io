@@ -3,3 +3,4 @@
 images/Thumbs.db
 *.db
 *.db
+.DS_Store
